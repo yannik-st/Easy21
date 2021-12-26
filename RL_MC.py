@@ -89,7 +89,7 @@ def mc():
 
     print('elapsed time:', time.time() - t0)
     # print(len(eval_rewards))
-    '''plt.plot(eval_rewards)
+    plt.plot(eval_rewards)
     plt.show()
 
     x_player = np.array(range(1, 22))
@@ -105,7 +105,7 @@ def mc():
     ax.set_xlabel('player sum')
     ax.set_ylabel('dealer showing')
     ax.set_zlabel('value')
-    plt.show()'''
+    plt.show()
 
     return Q
 
